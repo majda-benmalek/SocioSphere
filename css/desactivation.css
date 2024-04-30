@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: montserrat, serif;
+    background-color: #82AAE3;
+    display: grid;
+}
+
+/*Le formulaire */
+.form {
+    width: 450px;
+    height: 500px;
+    border: 5px black;
+    position: absolute;
+    margin: auto;
+    margin-right: 250px;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+    border-radius: 10px;
+    background: #D2DAFF;
+    box-shadow: 0 8px 32px 0 #19376D;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid #19366d83;
+}
+
+.text {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form span {
+    font-size: 20px;
+}
+
+.form input {
+    width: 90%;
+    height: 50px;
+    font-size: 16px;
+    outline: none;
+    background-color: #fbf9f9;
+    border: 1px solid #343842 ;
+    color: #7b8888;
+    margin: 10px 0;
+    padding: 10px;
+    border: 3px #1B2631;
+    border-radius: 8px;
+}
+.form input[type="submit"].btnDesac{
+    width:90%;
+    font-size:18px;
+    background-color:#19376D;
+    color:#fff;
+    margin:15px 0;
+    padding:10px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+.form input[type="submit"].btnDesac:hover{
+    background-color:#93C6E7;
+    color:#ffffff;
+}
+
+
+
+
+/*Pour les bouton */
+.wrapper {
+    display: inline-flex;
+    background: #fff;
+    height: 75px;
+    width: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 20px 15px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .option {
+    background: #fff;
+    height: 150%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 10px;
+    border: 2px solid lightgrey;
+    transition: all 0.3s ease;
+}
+
+.wrapper .option .dot {
+    height: 20px;
+    width: 20px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+}
+
+.wrapper .option .dot::before {
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    background: #A66CFF;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(1.5);
+    transition: all 0.3s ease;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#yes:checked:checked~.optionyes,
+#no:checked:checked~.optionno {
+    border-color: #A66CFF;
+    background: #A66CFF;
+}
+
+#yes:checked:checked~.optionyes .dot,
+#no:checked:checked~.optionno .dot {
+    background: #fff;
+}
+
+#yes:checked:checked~.optionyes .dot::before,
+#no:checked:checked~.optionno .dot::before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.wrapper .option span {
+    font-size: 20px;
+    color: #808080;
+}
+
+#yes:checked:checked~.optionyes span,
+#no:checked:checked~.optionno span {
+    color: #fff;
+}
+
+.trait{
+    position:absolute;
+    font-size: 25px;;
+    padding-top:50px;
+    padding-left:620px;
+    color: #C0DBEA;
+}
+.trait2{
+    position:absolute;
+    font-size: 25px;;
+    padding-top:50px;
+    padding-left:620px;
+    color: #C0DBEA;
+}

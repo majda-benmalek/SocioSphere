@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    font-family: montserrat,serif;
+    background-color: #82AAE3;
+}
+.form{
+    width:400px;
+    height: 410px;
+    border: 5px black;
+    position: absolute;
+    margin: auto;
+    margin-top: 100px;
+    top:0;
+    left: 0;
+    bottom:0;
+    right:0;
+    padding:30px;
+    border-radius: 10px;
+    background: #D2DAFF;
+    box-shadow: 0 8px 32px 0 #19376D;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid #19366d83;
+}
+.form span{
+    font-size:19px;
+}
+.form input{
+    width:90%;
+    font-size:16px;
+    outline:none;
+    background-color: #fbf9f9 ;
+    border: 1px solid #343842 ;
+    color:#7b8888;
+    margin:10px 0;
+    padding:10px;
+    border:3px #1B2631;
+    border-radius: 8px;
+}
+.form input[type="submit"].btnSuivant{
+    width:90%;
+    font-size:18px;
+    background-color:#19376D;
+    color:#fff;
+    margin:15px 0;
+    padding:10px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: 1px;
+}
+.form input[type="submit"].btnSuivant:hover{
+    background-color:#93C6E7;
+    color:#ffffff;
+}
+
+.text{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.trait1{
+    font-size:20px;
+    font-weight: bold;
+    padding-top:50px;
+    padding-left:30px;
+    color: #C0DBEA; 
+}
+
+.retour input[type="submit"].btnRetour {
+    width: 50%;
+    font-size: 18px;
+    background-color: #19376D;
+    color: #fff;
+    margin: 15px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-bottom: auto;
+
+}
+
+.retour input[type="submit"].btnRetour:hover {
+    background-color: #93C6E7;
+    color: #ffffff;
+}

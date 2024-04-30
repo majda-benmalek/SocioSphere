@@ -1,0 +1,39 @@
+.barreVer {
+    /*border: 0.5cm;*/
+    border:0.5%;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1%;
+    padding:0.5%;
+    color: black;
+    height: 35px;
+    background-color: #7662F8;
+}
+a{
+    text-decoration: none;
+    padding-top:20px;
+    font-size: 20px;
+    color:#ECF2FF;
+}
+.deco{
+    margin-left:50%;
+}
+input{
+    width:50%;
+    font-size:16px;
+    outline:none;
+    background-color: #fbf9f9 ;
+    border: 1px solid #343842 ;
+    color:#7b8888;
+    border-radius: 5px;
+    
+}
+.Reglages{
+    margin-left: -5%;
+}
+.Chercher{
+    padding-left: -3%;
+}
+.Chercher input[type="submit"]{
+    visibility: hidden;
+} 

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    font-family: montserrat, serif;
+    background-color: #82AAE3;
+}
+
+.FormConn {
+    width: 400px;
+    height: 400px;
+    border: 5px black;
+    position: absolute;
+    margin: auto;
+    margin-top: 100px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+    border-radius: 10px;
+    background: #D2DAFF;
+    box-shadow: 0 8px 32px 0 #19376D;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid #19366d83;
+}
+
+.form-text {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.form-saisie span {
+    font-size: 15px;
+}
+
+.form-saisie input {
+    width: 90%;
+    font-size: 16px;
+    outline: none;
+    background-color: #fbf9f9;
+    border: 1px solid #343842 ;
+    color: #7b8888;
+    margin: 10px 0;
+    padding: 10px;
+    border: 3px #1B2631;
+    border-radius: 8px;
+}
+
+.form-saisie input[type="submit"].btnConnexion {
+    width: 90%;
+    font-size: 18px;
+    background-color: #19376D;
+    color: #fff;
+    margin: 15px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: 1px;
+}
+
+.form-saisie input[type="submit"].btnConnexion:hover {
+    background-color: #93C6E7;
+    color: #ffffff;
+}
+
+.form-saisie a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #9EA9F0;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.lien {
+    padding-top: 20px;
+}
+.trait{
+    font-size:large;
+    padding-top:50px;
+    padding-left:15px;
+    color: #C0DBEA;
+}

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+}
+
+body {
+    text-align: center;
+    font-family: montserrat, serif;
+    background-color: #82AAE3;
+}
+
+.barreHor {
+    top: 5;
+    left: 0;
+    width: 20%;
+    height: 800px;
+    background-color: #E3DFFD;
+    padding: 2%;
+    padding-top:1%;
+    box-sizing: border-box;
+}
+
+hr {
+    width: 100%;
+    border-left: 100%;
+    margin: 5.5%;
+}
+
+.titre {
+    color: black;
+    font-size: 20px;
+}
+
+.barreHor a{
+    text-decoration: none;
+    color:#553C8B;
+}
+
+.barreHor input[type="submit"].btnRetour {
+    width: 120%;
+    font-size: 18px;
+    background-color: #19376D;
+    color: #fff;
+    margin: 15px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.barreHor input[type="submit"].btnRetour:hover {
+    background-color: #93C6E7;
+    color: #ffffff;
+}
+
+.Bouton{
+    position:absolute;
+    padding-top:2%;
+}
